@@ -1,15 +1,18 @@
 .center {
     text-align: center;
+    color: rgb(8, 49, 27);
 }
 
 .justify {
     text-align: justify;
+    color: rgb(186, 240, 186);
 }
 
 .container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    color: rgb(186, 240, 186);
 }
 
 #menu li {
@@ -19,7 +22,8 @@
 
 #menu li a {
     text-decoration: none;
-    color: black;
+    color: floralwhite;
+    background: rgb(34, 54, 4);
     font-size: 20px;
 }
 
@@ -43,9 +47,14 @@
 
 .mb-50 {
     margin-bottom: 50px;
+    align-items: baseline;
 }
 
 .ml-50 {
     margin-left: 50px;
+}
+
+body {
+    background-color: rgb(8, 133, 81);
 }
 
